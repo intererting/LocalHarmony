@@ -1,0 +1,57 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\yuliyang\\.ohos\\config\\auto_debug_LocalHarmony_com.example.myapplication_2850086000436433936.cer",
+          "storePassword": "0000001BD4461994E064FEE50B7B701EE39A31620D729C13121F9A3FEFF6420D59975109DF9165B8C0AEAD",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B178D861592E851B2DD7ADFB74BC83F36FEDAABAA2E74D1D17DD33C8BB3B3B930897D41E0C30F54",
+          "profile": "C:\\Users\\yuliyang\\.ohos\\config\\auto_debug_LocalHarmony_com.example.myapplication_2850086000436433936.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\yuliyang\\.ohos\\config\\auto_debug_LocalHarmony_com.example.myapplication_2850086000436433936.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "har_library",
+      "srcPath": "./har_library"
+    },
+    {
+      "name": "hsp_library",
+      "srcPath": "./hsp_library",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

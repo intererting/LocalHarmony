@@ -1,0 +1,1 @@
+export { MainPage, funInHar } from './src/main/ets/components/mainpage/MainPage'

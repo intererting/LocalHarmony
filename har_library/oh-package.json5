@@ -1,0 +1,12 @@
+{
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/libhar_library.so": "file:./src/main/cpp/types/libhar_library"
+  },
+  "author": "",
+  "name": "har_library",
+  "description": "Please describe the basic information.",
+  "main": "index.ets",
+  "version": "1.0.0",
+  "dependencies": {}
+}

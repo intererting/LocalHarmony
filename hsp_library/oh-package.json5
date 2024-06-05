@@ -1,0 +1,12 @@
+{
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/libhsp_library.so": "file:./src/main/cpp/types/libhsp_library"
+  },
+  "author": "",
+  "name": "hsp_library",
+  "description": "Please describe the basic information.",
+  "main": "./src/main/ets/Index.ets",
+  "version": "1.0.0",
+  "dependencies": {}
+}
