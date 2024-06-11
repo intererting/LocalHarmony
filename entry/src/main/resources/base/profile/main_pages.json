@@ -43,6 +43,14 @@
     "pages/ProvidePage",
     "pages/ExtendPage",
     "pages/AppStoragePage",
-    "pages/AxiosPage"
+    "pages/AxiosPage",
+    "pages/ViewPage",
+    "pages/AnimatorPage",
+    "pages/PromptPage",
+    "pages/HspPage",
+    "pages/ExportPageA",
+    "pages/ExportPageB",
+    "pages/specified/FirstPage",
+    "pages/specified/SecondPage"
   ]
 }

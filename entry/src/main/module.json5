@@ -32,9 +32,9 @@
     "pages": "$profile:main_pages",
     "abilities": [
       {
-        "launchType": "standard",
+        "launchType": "specified",
         "name": "EntryAbility",
-        "srcEntry": "./ets/entryability/EntryAbility.ts",
+        "srcEntry": "./ets/entryability/specified/FirstAbility.ts",
         "description": "$string:EntryAbility_desc",
         //桌面图标和名称
         "icon": "$media:icon",
@@ -76,6 +76,12 @@
             ]
           }
         ]
+      },
+      {
+        "name": "SecondAbility",
+        "srcEntrance": "./ets/entryability/specified/SeondAbility.ts",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:red"
       }
     ]
   }
