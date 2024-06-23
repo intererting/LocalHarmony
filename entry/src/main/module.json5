@@ -34,7 +34,7 @@
       {
         "launchType": "specified",
         "name": "EntryAbility",
-        "srcEntry": "./ets/entryability/specified/FirstAbility.ts",
+        "srcEntry": "./ets/entryability/EntryAbility.ts",
         "description": "$string:EntryAbility_desc",
         //桌面图标和名称
         "icon": "$media:icon",

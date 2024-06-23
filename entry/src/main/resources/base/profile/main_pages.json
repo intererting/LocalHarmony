@@ -51,6 +51,8 @@
     "pages/ExportPageA",
     "pages/ExportPageB",
     "pages/specified/FirstPage",
-    "pages/specified/SecondPage"
+    "pages/specified/SecondPage",
+    "pages/AppRecoveryPage",
+    "pages/OffsetAndPositionPage"
   ]
 }
